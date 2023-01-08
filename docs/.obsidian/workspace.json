@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pluginsDocs/json.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pluginsDocs/json.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pluginsDocs/json.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pluginsDocs/json.md"
+                "file": "index.md"
               }
             }
           }
@@ -197,15 +197,15 @@
   },
   "active": "1d812815bcb1ff4d",
   "lastOpenFiles": [
-    "pluginsDocs/attribute.md",
+    "pluginsDocs/api.md",
     "pluginsDocs/index.md",
+    "pluginsDocs/attribute.md",
+    "pluginsDocs/attribute/platformconstraint.md",
     "pluginsDocs/json.md",
     "pluginsDocs/returnType.md",
-    "pluginsDocs/api.md",
-    "pluginsDocs/attribute/command.md",
     "pluginsDocs/attribute/event.md",
+    "pluginsDocs/attribute/command.md",
     "attribute/event.md",
-    "attribute/command.md",
-    "index.md"
+    "attribute/command.md"
   ]
 }

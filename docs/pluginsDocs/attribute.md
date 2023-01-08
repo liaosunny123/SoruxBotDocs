@@ -43,3 +43,8 @@ public PluginFucFlag Debug(MessageContext context, string state)
 - [Event](/pluginsDocs/attribute/event.md)
 - [Command](/pluginsDocs/attribute/command.md)
 
+除了基本特性之外，还有一些被成为可选特性，可以为你提供其他的功能：
+
+- [PlatformConstraint](/pluginsDocs/attribute/platformconstraint.md)
+
+文档完善中...
