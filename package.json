@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.35",
+    "yarn": "^1.22.19"
+  },
+  "name": "soruxbotdocs",
+  "version": "1.0.0",
+  "description": "SoruxBot文档",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liaosunny123/SoruxBotDocs.git"
+  },
+  "keywords": [
+    "Soruxbot",
+    "qqbot",
+    "bot-framework"
+  ],
+  "author": "EpicMo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liaosunny123/SoruxBotDocs/issues"
+  },
+  "homepage": "https://github.com/liaosunny123/SoruxBotDocs#readme"
+}
