@@ -30,9 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "14462db9503996d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pluginsDocs/index.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1191c8d2c9ba6855",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pluginsDocs/attribute.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d812815bcb1ff4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "pluginsDocs/json.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -98,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pluginsDocs/index.md",
+                "file": "pluginsDocs/json.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pluginsDocs/index.md",
+                "file": "pluginsDocs/json.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pluginsDocs/index.md"
+                "file": "pluginsDocs/json.md"
               }
             }
           }
@@ -159,9 +195,17 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "158a98ee3211823f",
+  "active": "1d812815bcb1ff4d",
   "lastOpenFiles": [
-    "index.md",
-    "getstarted.md"
+    "pluginsDocs/attribute.md",
+    "pluginsDocs/index.md",
+    "pluginsDocs/json.md",
+    "pluginsDocs/returnType.md",
+    "pluginsDocs/api.md",
+    "pluginsDocs/attribute/command.md",
+    "pluginsDocs/attribute/event.md",
+    "attribute/event.md",
+    "attribute/command.md",
+    "index.md"
   ]
 }
