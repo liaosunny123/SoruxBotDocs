@@ -40,7 +40,7 @@ jobs:
           npm run docs:build
       # Deploys
       - name: Deploy
-        uses: liaosunny123/SoruxBotDocs
+        uses: liaosunny123/SoruxBotDocs@master
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with: 
