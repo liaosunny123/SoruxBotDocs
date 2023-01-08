@@ -87,7 +87,8 @@ Controller构造函数中可以使用Interface中提供的参数，以下有：
 public PluginFucFlag Debug(MessageContext context, string state)  
 {  
     switch (state)  
-    {        case "on":  
+    {       
+	    case "on":  
             bot.SendPrivateMessage(context,"Debug Mode on");  
             return PluginFucFlag.MsgIntercepted;  
         case "off":  
