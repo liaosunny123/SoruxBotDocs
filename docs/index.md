@@ -5,7 +5,7 @@ SoruxBot 是一个支持多语言接入的、可跨平台运行的且可以实�
 
 ## 快速了解【点击跳转】
 - 体系构成概述：见下方
-- 接入SoruxBot插件：
+- 接入SoruxBot插件：[pluginsDocs](/pluginsDocs/)
 - 接入SoruxBot 框架：
 - 接入SoruxBot 协议层适配器：
 - 接入SoruxBot 协议层实体：
