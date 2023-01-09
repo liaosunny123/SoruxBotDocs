@@ -107,7 +107,7 @@ public PluginFucFlag Debug(MessageContext context, string state)
 
 Action分为特性标记，处理内容和返回三部分。
 
-- 特性标记：见[特性页](pluginsDocs/attribute/index.md)
+- 特性标记：见[特性页](/pluginsDocs/attribute/index.md)
 - 处理内容：实现你的逻辑，可见[API页](api)
 - 返回：返回消息的状态，见[返回页](returnType.md)
 
@@ -127,7 +127,7 @@ Json文件应当被放置在Config下，且与插件名称相同，例如对于A
 
 Json文件中的详细配置请见[Json页](json)
 
-至此便是一个插件的基本构造，此外，你还可以使用[特性页](pluginsDocs/attribute/index.md)完成AOP等高级操作。
+至此便是一个插件的基本构造，此外，你还可以使用[特性页](/pluginsDocs/attribute/index.md)完成AOP等高级操作。
 
 #### Nuget限制
 
