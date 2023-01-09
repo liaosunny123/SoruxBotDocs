@@ -20,79 +20,19 @@
             }
           },
           {
-            "id": "158a98ee3211823f",
+            "id": "443ecb66d2c86f1e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pluginsDocs/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "14462db9503996d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pluginsDocs/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1191c8d2c9ba6855",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pluginsDocs/attribute/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1d812815bcb1ff4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5a68b65cbb88f9ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pluginsDocs/index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1e9d66d1011c5364",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pluginsDocs/index.md",
+                "file": "test.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -158,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pluginsDocs/index.md",
+                "file": "test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pluginsDocs/index.md",
+                "file": "test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pluginsDocs/index.md"
+                "file": "test.md"
               }
             }
           }
@@ -219,14 +159,14 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "1e9d66d1011c5364",
+  "active": "443ecb66d2c86f1e",
   "lastOpenFiles": [
+    "index.md",
+    "pluginsDocs/index.md",
     "pluginsDocs/register/index.md",
     "pluginsDocs/attribute/index.md",
-    "pluginsDocs/index.md",
     "pluginsDocs/register/IBasicInformationRegister.md",
     "pluginsDocs/api.md",
-    "index.md",
     "pluginsDocs/attribute/command.md",
     "pluginsDocs/attribute/event.md",
     "pluginsDocs/attribute/platformconstraint.md",
