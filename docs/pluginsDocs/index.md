@@ -44,14 +44,18 @@ public class Register : IBasicInformationRegister
   
     public string GetVersion() => "1.0.0-release";  
   
-    public string GetDLL() => "soruxbot.pluginshelper.debughelper";   
+    public string GetDLL() => "soruxbot.pluginshelper.debughelper.dll";   
 }
 ```
 
 插件通过继承Interface.Register命名空间下的若干接口来向框架注册对应的服务，以下是这些接口的具体含义：
+
 - IBasicInformationRegister:必须继承，表示注册插件的基本信息
 - IPermissionRegister:可选继承，表示是否请求权限托管服务，继承后可以使用权限管理特性
 - IPluginsUUIDRegister:可选继承，表示插件是否向SoruxBot插件市场注册，并提供UUID
+
+对于Register可选的接口，可详见[Register](/pluginsDocs/register/index.md)页
+
 ::: warning
 不经过继承对应的接口表明插件特性，可能会导致在使用接口提供的特性的时候出现无法预知的错误
 :::
@@ -73,6 +77,7 @@ Controller构造函数中可以使用Interface中提供的参数，以下有：
 - ILongMessageCommunicate:长对话支持模块
 - IPluginsDataStorage:插件配置持久化模块
 - IPluginsStoragePermanentAble:插件临时配置持久化模块
+
 ::: tip
 最佳实践：Controller类一般需要获取日志模块进行信息输出和API实例进行消息输出
 :::
@@ -102,7 +107,7 @@ public PluginFucFlag Debug(MessageContext context, string state)
 
 Action分为特性标记，处理内容和返回三部分。
 
-- 特性标记：见[特性页](attribute)
+- 特性标记：见[特性页](pluginsDocs/attribute/index.md)
 - 处理内容：实现你的逻辑，可见[API页](api)
 - 返回：返回消息的状态，见[返回页](returnType.md)
 
@@ -122,7 +127,26 @@ Json文件应当被放置在Config下，且与插件名称相同，例如对于A
 
 Json文件中的详细配置请见[Json页](json)
 
-自此便是一个插件的基本构造，此外，你还可以使用[特性页](attribute)完成AOP等高级操作。
+至此便是一个插件的基本构造，此外，你还可以使用[特性页](pluginsDocs/attribute/index.md)完成AOP等高级操作。
+
+#### Nuget限制
+
+特别的，当插件开发过程中使用了部分外置库，而这些外置库同时被SoruxBot使用，因此部分情况下可能出现库冲突导致插件加载失败的现象，因此我们推荐你首先检查SoruxBot是否使用了你使用的外置库，并核验版本是否正确。
+
+以下列举了SoruxBot所使用的所有外置库，一般来说SoruxBot不会轻易更改使用的Nuget库，以确保与开发者保持一致，请确保插件开发过程中使用的版本（如果存在）与下面的版本相同：
+
+- `Microsoft.Extensions.*`：版本为7.0.0
+- `Microsoft.Extensions.Configuration.Binder`：版本为7.0.1
+- `System.Configuration.ConfigurationManager`： 版本为7.0.0
+- `Newtonsoft.Json.Bson`：版本为1.0.3-beta1
+- `RestSharp`：版本为109.0.0-preview.1
+- `SQLite`：版本为3.13.0
+
+一般情况下这些库不会与插件的开发起到冲突，且部分库在Interface也会开放部分的Utils以供插件开发者简化插件开发流程。例如，在SoruxBot中提供了供插件开发者使用的数据存储模块`IPluginsDataStorage`，其为`SQLite`模块的包装版本，那么插件开发者可以使用本模块以进行插件数据配置存储操作，而不是自己使用SQLite进行手动操作。
+
+如有需要用到上述库，请先检查SoruxBot是否提供了相应的Utils，然后才使用版本相同的库。
+
+
 
 ## 基于其它语言接入开发
 
