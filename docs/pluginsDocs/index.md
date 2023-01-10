@@ -16,6 +16,8 @@ Plugins ##表示Wrapper下插件的存储/运行/配置的目录
 
 ## 基于C#接入开发
 
+你也可以在此处查看一个插件的完整开发流程：[Example](/pluginsDocs/example/index.md)
+
 ### 开始
 
 - 下载[SoruxBot.Interface](https://www.github.com/liaosunny123/soruxbot)的源码
@@ -51,7 +53,7 @@ public class Register : IBasicInformationRegister
 插件通过继承Interface.Register命名空间下的若干接口来向框架注册对应的服务，以下是这些接口的具体含义：
 
 - IBasicInformationRegister:必须继承，表示注册插件的基本信息
-- IPermissionRegister:可选继承，表示是否请求权限托管服务，继承后可以使用权限管理特性
+- ICommandPermission:可选继承，表示是否请求权限托管服务，继承后可以使用权限管理特性
 - IPluginsUUIDRegister:可选继承，表示插件是否向SoruxBot插件市场注册，并提供UUID
 
 对于Register可选的接口，可详见[Register](/pluginsDocs/register/index.md)页
@@ -63,7 +65,10 @@ public class Register : IBasicInformationRegister
 #### Controller
 
 在Controller类中：
-Controller类表示插件的控制类，可以以MVC中的Controller来进行理解。
+Controller类表示插件的控制类，表示插件某个命令集的类。在每一个Controller中应该尽可能的包含某类功能的全部命令。
+
+Controller类并没有明确的命令或者是位置规范，你只需要继承`BotController`父类即可向框架表明这是一个Controller类
+
 ::: tip
 最佳实践：Controller类虽然没有明确的限制，但是建议在开发时每个功能模块自成一个Controller
 :::
@@ -76,7 +81,6 @@ Controller构造函数中可以使用Interface中提供的参数，以下有：
 - BotContext:机器人上下文模块【部分安全模式下框架可能不允许插件获取此实例】
 - ILongMessageCommunicate:长对话支持模块
 - IPluginsDataStorage:插件配置持久化模块
-- IPluginsStoragePermanentAble:插件临时配置持久化模块
 
 ::: tip
 最佳实践：Controller类一般需要获取日志模块进行信息输出和API实例进行消息输出
@@ -127,7 +131,7 @@ Json文件应当被放置在Config下，且与插件名称相同，例如对于A
 
 Json文件中的详细配置请见[Json页](json)
 
-至此便是一个插件的基本构造，此外，你还可以使用[特性页](/pluginsDocs/attribute/index.md)完成AOP等高级操作。
+至此便是一个插件的基本构造，此外，你还可以使用[特性页](/pluginsDocs/attribute/index.md)高级操作。
 
 #### Nuget限制
 
@@ -140,12 +144,11 @@ Json文件中的详细配置请见[Json页](json)
 - `System.Configuration.ConfigurationManager`： 版本为7.0.0
 - `Newtonsoft.Json.Bson`：版本为1.0.3-beta1
 - `RestSharp`：版本为109.0.0-preview.1
-- `SQLite`：版本为3.13.0
+- `System.Data.SQLite.Core`：版本为1.0.117
 
 一般情况下这些库不会与插件的开发起到冲突，且部分库在Interface也会开放部分的Utils以供插件开发者简化插件开发流程。例如，在SoruxBot中提供了供插件开发者使用的数据存储模块`IPluginsDataStorage`，其为`SQLite`模块的包装版本，那么插件开发者可以使用本模块以进行插件数据配置存储操作，而不是自己使用SQLite进行手动操作。
 
 如有需要用到上述库，请先检查SoruxBot是否提供了相应的Utils，然后才使用版本相同的库。
-
 
 
 ## 基于其它语言接入开发
