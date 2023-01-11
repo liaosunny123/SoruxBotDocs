@@ -8,7 +8,7 @@
 
 首先，我们需要在项目的Release下载我们需要的Wrapper和Provider版本，在本文中我们仅以QQ平台作为我们的示例开发平台。
 
-然后我们需要新建一个.NET 6.0 Libraries项目，并导入Interface的DLL引用。
+然后我们需要新建一个`.NET 6.0 Libraries`项目，并导入`Interface`的DLL引用。
 
 当你可以引用Sorux的命名空间时，说明我们可以开始我们的开发了。
 
