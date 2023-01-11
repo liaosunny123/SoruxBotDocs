@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "use/index.md",
+                "file": "pluginsDocs/example/index.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "use/index.md",
+                "file": "pluginsDocs/example/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "use/index.md",
+                "file": "pluginsDocs/example/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "use/index.md"
+                "file": "pluginsDocs/example/index.md"
               }
             }
           }
@@ -161,15 +161,15 @@
   },
   "active": "443ecb66d2c86f1e",
   "lastOpenFiles": [
-    "index.md",
-    "pluginsDocs/example/index.md",
-    "pluginsDocs/index.md",
     "pluginsDocs/json.md",
+    "pluginsDocs/index.md",
+    "pluginsDocs/example/index.md",
+    "pluginsDocs/register/index.md",
+    "pluginsDocs/returnType.md",
+    "use/index.md",
+    "index.md",
     "pluginsDocs.md",
     "test.md",
-    "pluginsDocs/register/index.md",
-    "pluginsDocs/attribute/index.md",
-    "pluginsDocs/register/IBasicInformationRegister.md",
-    "pluginsDocs/api.md"
+    "pluginsDocs/attribute/index.md"
   ]
 }
