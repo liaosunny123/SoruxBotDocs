@@ -5,4 +5,3 @@
 以下为具体的说明：
 
 - [IBasicInformationRegister](/pluginsDocs/register/IBasicInformationRegister.md)
-- 
