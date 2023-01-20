@@ -1,22 +1,18 @@
 {
   "main": {
-    "id": "440c7860124f3504",
+    "id": "4450dac6a9239dc3",
     "type": "split",
     "children": [
       {
-        "id": "9d7685efdb250463",
+        "id": "7a7cb4fc02bccf40",
         "type": "tabs",
         "children": [
           {
-            "id": "443ecb66d2c86f1e",
+            "id": "6c1b5e6891e9fb12",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "pluginsDocs/attribute/command.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -25,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "60c57dc4ee1afcc5",
+    "id": "269c0ac169cd9ddb",
     "type": "split",
     "children": [
       {
-        "id": "1ec1f297e18cd8ea",
+        "id": "c7662b8df50d389d",
         "type": "tabs",
         "children": [
           {
-            "id": "c1fc345e09f0f518",
+            "id": "3715fb8aa5d11c3c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -43,7 +39,7 @@
             }
           },
           {
-            "id": "77c1f01f28740f03",
+            "id": "558aef5898c6f28e",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -58,7 +54,7 @@
             }
           },
           {
-            "id": "00de352370236484",
+            "id": "50d00a531cd1618b",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -72,20 +68,19 @@
     "width": 300
   },
   "right": {
-    "id": "da0a0a93cecfe1ff",
+    "id": "a1f41ab96d2f00eb",
     "type": "split",
     "children": [
       {
-        "id": "6206f52e7cefe355",
+        "id": "d45d049b4c37f0e4",
         "type": "tabs",
         "children": [
           {
-            "id": "cb7e741f85bc41c5",
+            "id": "96be3fad62b342ae",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pluginsDocs/attribute/command.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,19 +92,18 @@
             }
           },
           {
-            "id": "52aba2f653e0fec7",
+            "id": "956c8a0ad9189d50",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pluginsDocs/attribute/command.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "20038e9decf908ea",
+            "id": "2bd976556e0dc587",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -120,13 +114,11 @@
             }
           },
           {
-            "id": "a202b242f522f27e",
+            "id": "c79d481f101da9b9",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "pluginsDocs/attribute/command.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,17 +138,6 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "443ecb66d2c86f1e",
-  "lastOpenFiles": [
-    "pluginsDocs/attribute/index.md",
-    "pluginsDocs/index.md",
-    "pluginsDocs/attribute/command.md",
-    "pluginsDocs/api.md",
-    "pluginsDocs/json.md",
-    "pluginsDocs/register/index.md",
-    "pluginsDocs/example/index.md",
-    "pluginsDocs/register/IBasicInformationRegister.md",
-    "pluginsDocs/returnType.md",
-    "use/index.md"
-  ]
+  "active": "6c1b5e6891e9fb12",
+  "lastOpenFiles": []
 }

@@ -106,7 +106,8 @@ public PluginFucFlag Debug(MessageContext context, string state)
         default:  
             bot.SendPrivateMessage(context,"Error State,only be on/off but receive:" + state);  
             return PluginFucFlag.MsgIntercepted;  
-    }}
+    }
+}
 ```
 
 Action分为特性标记，处理内容和返回三部分。
