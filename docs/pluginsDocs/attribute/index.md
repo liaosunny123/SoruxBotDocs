@@ -40,11 +40,14 @@ public PluginFucFlag Debug(MessageContext context, string state)
 
 对于此类管理插件是否被触发的基本特性，成为基本特性，且以下是详细的介绍：
 
-- [Event](/pluginsDocs/attribute/event.md)
-- [Command](/pluginsDocs/attribute/command.md)
+- [事件](/pluginsDocs/attribute/event.md)
+- [指令](/pluginsDocs/attribute/command.md)
 
 除了基本特性之外，还有一些被成为可选特性，可以为你提供其他的功能：
 
-- [PlatformConstraint](/pluginsDocs/attribute/platformconstraint.md)
+- [平台约束](/pluginsDocs/attribute/platformconstraint.md)
+- [权限](/pluginsDocs/attribute/privilege.md)
+- [长对话](/pluginsDocs/attribute/longcommunicate.md)
+- [存储](/pluginsDocs/attribute/storage.md)
 
 文档完善中...

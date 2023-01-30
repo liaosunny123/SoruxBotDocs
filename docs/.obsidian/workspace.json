@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pluginsDocs/attribute/command.md",
+                "file": "pluginsDocs/attribute/storage.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "pluginsDocs/attribute/command.md",
+                "file": "pluginsDocs/attribute/storage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "pluginsDocs/attribute/command.md",
+                "file": "pluginsDocs/attribute/storage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pluginsDocs/attribute/command.md"
+                "file": "pluginsDocs/attribute/storage.md"
               }
             }
           }
@@ -148,15 +148,15 @@
   },
   "active": "443ecb66d2c86f1e",
   "lastOpenFiles": [
+    "pluginsDocs/attribute/longcommunicate.md",
+    "pluginsDocs/attribute/event.md",
+    "pluginsDocs/attribute/command.md",
+    "pluginsDocs/attribute/storage.md",
     "pluginsDocs/attribute/index.md",
     "pluginsDocs/index.md",
-    "pluginsDocs/attribute/command.md",
-    "pluginsDocs/api.md",
+    "pluginsDocs/attribute/privilege.md",
     "pluginsDocs/json.md",
-    "pluginsDocs/register/index.md",
-    "pluginsDocs/example/index.md",
-    "pluginsDocs/register/IBasicInformationRegister.md",
-    "pluginsDocs/returnType.md",
+    "index.md",
     "use/index.md"
   ]
 }
